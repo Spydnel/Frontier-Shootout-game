@@ -8,7 +8,7 @@ public class Shooter : MonoBehaviour
     KeyCode fireButton;
 
     [SerializeField]
-    Vector2 fireDirection = Vector2.up;
+    Vector2 fireDirection = Vector2.left;
 
     [SerializeField]
     float coolDown;
