@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireButton: 101
-  fireDirection: {x: 0, y: 1}
+  fireDirection: {x: -1, y: 0}
   coolDown: 1
   projectilePrefab: {fileID: -4448987163611682522, guid: 0f7bfe60a5a747b48b79342de24b8bea, type: 3}
   spawnLocation: {fileID: 1204715037}
