@@ -16,6 +16,6 @@ public class BulletSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spriteRenderer.sprite = bulletInd[bulletCount];
+        //spriteRenderer.sprite = bulletInd[bulletCount];
     }
 }
