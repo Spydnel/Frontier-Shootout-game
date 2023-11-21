@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
+
+    [SerializeField]
+    public static int bulletCount = 6;
+
     [SerializeField]
     KeyCode fireButton;
 
@@ -44,6 +48,7 @@ public class Shooter : MonoBehaviour
             p.Init(fireDirection);
 
             timer = coolDown;
-        }
+            bulletCount -= 1;
+}
     }
 }

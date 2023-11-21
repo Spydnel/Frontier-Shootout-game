@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_0
+      name: bulletInd1
       rect:
         serializedVersion: 2
         x: 0
@@ -118,7 +118,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_1
+      name: bulletInd2
       rect:
         serializedVersion: 2
         x: 0
@@ -139,7 +139,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_2
+      name: bulletInd3
       rect:
         serializedVersion: 2
         x: 0
@@ -160,7 +160,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_3
+      name: bulletInd4
       rect:
         serializedVersion: 2
         x: 0
@@ -181,7 +181,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_4
+      name: bulletInd5
       rect:
         serializedVersion: 2
         x: 0
@@ -202,7 +202,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001-Sheet_5
+      name: bulletInd6
       rect:
         serializedVersion: 2
         x: 0
@@ -223,7 +223,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0001-Sheet_0: -1809950919
-      Sprite-0001-Sheet_1: -1973749752
-      Sprite-0001-Sheet_2: 1970474745
-      Sprite-0001-Sheet_3: -43100300
-      Sprite-0001-Sheet_4: 201577360
-      Sprite-0001-Sheet_5: 459442152
+      bulletInd1: -1809950919
+      bulletInd2: -1973749752
+      bulletInd3: 1970474745
+      bulletInd4: -43100300
+      bulletInd5: 201577360
+      bulletInd6: 459442152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
