@@ -375,9 +375,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca63c7c3bc8319a4791758d5684e21da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireButton: 0
+  fireButton: 101
   fireDirection: {x: -1, y: 0}
-  coolDown: 2
+  coolDown: 0.1
   bulletPrefab: {fileID: 1946512127679136808, guid: fb9bb1d3cc91dba4abb0939f5aad5bcb, type: 3}
   spawnLocation: {fileID: 637763407}
 --- !u!4 &637763407
@@ -1346,7 +1346,7 @@ Transform:
   m_GameObject: {fileID: 1859330155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.725642, y: 0.7691664, z: 0.12294783}
+  m_LocalPosition: {x: 12.725642, y: 0.7691664, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

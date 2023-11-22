@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    void Start()
+    {
+        
+    }
 
+    [SerializeField]
+    float bulletSpeed;
     public void Init(Vector2 velocity)
     {
         Rigidbody2D rb2 = GetComponent<Rigidbody2D>();
@@ -23,6 +29,6 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        transform.position += transform.right * Time.deltaTime * 3;
+        transform.position += transform.right * Time.deltaTime * bulletSpeed;
     }
 }
