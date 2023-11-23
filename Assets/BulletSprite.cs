@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BulletSprite : MonoBehaviour
 {
+    public static int bulletCount;
     public SpriteRenderer spriteRenderer;
     public Sprite[] bulletInd; 
 
