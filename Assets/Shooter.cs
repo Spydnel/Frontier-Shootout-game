@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
   
-    public static int bulletCount = 6;
+    public static int bulletCount = 5;
 
     [SerializeField]
     KeyCode fireButton;

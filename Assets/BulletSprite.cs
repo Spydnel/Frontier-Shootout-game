@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletSprite : MonoBehaviour
 {
-    public static int bulletCount;
+    
     public SpriteRenderer spriteRenderer;
     public Sprite[] bulletInd; 
 
@@ -17,6 +17,6 @@ public class BulletSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //spriteRenderer.sprite = bulletInd[bulletCount];
+        spriteRenderer.sprite = bulletInd[Shooter.bulletCount];
     }
 }
