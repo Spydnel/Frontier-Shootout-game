@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-
-    [SerializeField]
+  
     public static int bulletCount = 6;
 
     [SerializeField]
