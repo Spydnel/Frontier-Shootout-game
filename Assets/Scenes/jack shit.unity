@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570498952}
   - component: {fileID: 570498951}
+  - component: {fileID: 570498953}
   m_Layer: 0
   m_Name: bulletInd1
   m_TagString: Untagged
@@ -207,6 +208,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570498953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570498950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66dd0d9b6c643849a4341aa7b1d8c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 570498951}
+  bulletInd:
+  - {fileID: 459442152, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: 201577360, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: -43100300, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: 1970474745, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: -1973749752, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
 --- !u!1 &633573097
 GameObject:
   m_ObjectHideFlags: 0
