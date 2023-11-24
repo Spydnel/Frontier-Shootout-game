@@ -182,12 +182,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1809950919, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  m_Sprite: {fileID: -1150015042, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 1.75, y: 1.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 570498950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.74, y: 2.77, z: 0}
+  m_LocalPosition: {x: -8.47, y: 3.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -222,11 +222,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 570498951}
   bulletInd:
-  - {fileID: 459442152, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
-  - {fileID: 201577360, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
-  - {fileID: -43100300, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
-  - {fileID: 1970474745, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
-  - {fileID: -1973749752, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: 1364672829, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: -1078527317, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: -1094051147, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: 558999265, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: 907782236, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
+  - {fileID: -437039687, guid: a6cbb7ade9607e44da60adffbc32542c, type: 3}
 --- !u!1 &633573097
 GameObject:
   m_ObjectHideFlags: 0
