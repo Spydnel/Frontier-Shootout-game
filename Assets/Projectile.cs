@@ -14,6 +14,6 @@ public class Projectile : MonoBehaviour
             return;
         }
 
-        rb2.velocity = velocity;
+        
     }
 }
