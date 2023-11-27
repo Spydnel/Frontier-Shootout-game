@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BulletSprite : MonoBehaviour
@@ -17,7 +18,10 @@ public class BulletSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Shooter.bulletCount > 5)
-        spriteRenderer.sprite = bulletInd[Shooter.bulletCount];
+        if (playerShooting.bulletCount > -1 && playerShooting.bulletCount < 6)
+        {
+            spriteRenderer.sprite = bulletInd[playerShooting.bulletCount];
+        }
+        
     }
 }
