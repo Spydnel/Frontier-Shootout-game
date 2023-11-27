@@ -14,7 +14,7 @@ public class HurtEnemy : MonoBehaviour
         {
             return;
         }
-
+        print("blah blah");
         ehealth.Hurt(hurtAmount);
         Destroy(gameObject);
     }
