@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerShooting : MonoBehaviour
 {
+    public ParticleSystem muzzleFlash;
 
     [SerializeField]
     public static int bulletCount = 6;
@@ -49,6 +50,8 @@ public class playerShooting : MonoBehaviour
 
             timer = coolDown;
             bulletCount -= 1;
-}
+
+            muzzleFlash.Play();
+        }
     }
 }
