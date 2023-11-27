@@ -47,7 +47,7 @@ public class playerShooting : MonoBehaviour
 
             Bullet p = Instantiate(bulletPrefab, pos, Quaternion.identity);
             p.Init(fireDirection);
-
+            CameraShake.shakeDuration = 0.1f;
             timer = coolDown;
             bulletCount -= 1;
 
