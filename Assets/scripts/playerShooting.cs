@@ -29,13 +29,14 @@ public class playerShooting : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer -= Time.deltaTime;
+
+
+        timer -= Time.unscaledDeltaTime;
 
         if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0)
         {
