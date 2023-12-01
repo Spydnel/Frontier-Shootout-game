@@ -9,8 +9,6 @@ public class Slow : MonoBehaviour
     public float slowTime = 6;
     float slowTimeMult;
 
-    public GameObject count;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -47,20 +45,16 @@ public class Slow : MonoBehaviour
         {
             slowTime -= Time.unscaledDeltaTime * 2f;
         }
-        else if (active == false && slowTime < slowTimeMult)
+        else if (active = false && slowTime < slowTimeMult)
         {
             slowTime += Time.unscaledDeltaTime;
         }
         else if (slowTime <  0f && active == true)
         {
             active = false;
-            CameraShake.shakeDuration = 0.1f;
+            
         }
 
-        SlowMeter countMeter = count.GetComponent<SlowMeter>();
-        countMeter.Count(slowTime, slowTimeMult);
-
-        
 
     }
 }
