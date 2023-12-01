@@ -215,8 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509289b52a9774947bec71491b9c21ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 1, y: 0}
-  zigzagTime: 1
+  velocity: {x: 2, y: 0}
+  zigzagTime: 0.4
 --- !u!50 &5524243942667131289
 Rigidbody2D:
   serializedVersion: 4
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a09b59d31bfe7245948b88cc70dd22a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2
+  maxHealth: 1
 --- !u!1 &3397137978407684116
 GameObject:
   m_ObjectHideFlags: 0
