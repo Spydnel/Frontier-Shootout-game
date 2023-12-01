@@ -16,6 +16,8 @@ public class HurtEnemy : MonoBehaviour
         }
         print("blah blah");
         ehealth.Hurt(hurtAmount);
+        CameraShake.shakeDuration = 0.1f;
         Destroy(gameObject);
+
     }
 }

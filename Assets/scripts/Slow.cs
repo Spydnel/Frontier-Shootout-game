@@ -52,6 +52,7 @@ public class Slow : MonoBehaviour
         else if (slowTime <  0f && active == true)
         {
             active = false;
+            CameraShake.shakeDuration = 0.1f;
         }
 
 
