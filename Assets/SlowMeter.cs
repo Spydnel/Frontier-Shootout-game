@@ -30,13 +30,9 @@ public class SlowMeter : MonoBehaviour
         transform.position = new Vector3(scaledCount / 2 - 13.1f, transform.position.y, 0);
         transform.localScale = new Vector3(scaledCount, 1, 1);
 
-        if (scaledCount < 2f)
+        if (scaledCount < 2)
         {
             color.color = Color.red;
-        }
-        else if (scaledCount < 6f)
-        {
-            color.color = Color.cyan;
         }
         else
         {
