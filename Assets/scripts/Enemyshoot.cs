@@ -45,19 +45,16 @@ public class Enemybullet : MonoBehaviour
                 pos = spawnLocation.position;
             }
 
-        while (s == 1)
-        {
-            for (int i = 0; i < 3; i++)
-            {
+        
 
                 EnemyBullet p = Instantiate(EnemybulletPrefab, pos, Quaternion.identity);
                 p.Init(fireDirection);
 
                 timer = coolDown;
-            }
+            
 
             timer = coolDown;
-        }
+        
         
 
     }
