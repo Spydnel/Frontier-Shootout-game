@@ -6,7 +6,7 @@ using UnityEngine.Rendering.PostProcessing;
 public class SlowEffect : MonoBehaviour
 {
     public PostProcessVolume postProcess;
-    bool active = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +18,19 @@ public class SlowEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (postProcess.profile.TryGetSettings(out Vignette vignette))
         {
-            active = !active;
-
-            if (postProcess.profile.TryGetSettings(out Vignette vignette))
+            if (Time.deltaTime != 1f)
             {
-                vignette.active = active;
+                vignette.active = true;
+            }
+            else
+            {
+                vignette.active = false;
             }
         }
+
+
+
     }
 }
