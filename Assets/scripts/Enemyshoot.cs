@@ -25,7 +25,7 @@ public class Enemybullet : MonoBehaviour
 
     int s = 1;
 
-    float timer = 0;
+    float timer = 10;
 
     // Start is called before the first frame update
      void Start()
@@ -34,7 +34,7 @@ public class Enemybullet : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void pew()
+    public void Update()
     {
         timer -= Time.deltaTime;
 
@@ -44,13 +44,7 @@ public class Enemybullet : MonoBehaviour
             pos = spawnLocation.position;
         }
 
-        while (s == 2)
-        {
-
-
-
-            for (int i = 0; i < 5; i++)
-            {
+       
 
 
 
@@ -64,9 +58,9 @@ public class Enemybullet : MonoBehaviour
 
                 Debug.Log("pew");
                 timer = coolDown;
-            }
+            
 
-        }
+        
 
 
 
