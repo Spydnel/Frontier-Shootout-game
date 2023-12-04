@@ -27,6 +27,6 @@ public class ScoreCounter : MonoBehaviour
         scoreI.ToString();
 
         TextMesh text = scorecounter.GetComponent<TextMesh>();
-        text.text = "Score:" + scoreI;
+        text.text = "Score: " + scoreI;
     }
 }
