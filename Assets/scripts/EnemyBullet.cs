@@ -1,10 +1,11 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.EditorTools;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class Bullet : MonoBehaviour
+public class EnemyBullet : MonoBehaviour
 {
-
     void Start()
     {
         bulletSlow = bulletSpeed;
@@ -15,7 +16,14 @@ public class Bullet : MonoBehaviour
 
     float bulletSlow;
 
+    [SerializeField]
+    GameObject GameObjectt;
+
+   
+
     
+    
+
     public void Init(Vector2 velocity)
     {
         Rigidbody2D rb2 = GetComponent<Rigidbody2D>();
@@ -27,7 +35,7 @@ public class Bullet : MonoBehaviour
 
         //rb2.velocity = velocity;
 
-        var direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+        var direction = GameObjectt.transform.position;
         var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
@@ -37,13 +45,13 @@ public class Bullet : MonoBehaviour
 
         if (Time.timeScale != 1)
         {
-            bulletSlow *= 0.98f;
+            bulletSlow *= 0.99f;
         }
         else
         {
             bulletSlow = bulletSpeed;
         }
-        
+
 
 
         transform.position += transform.right * Time.deltaTime * bulletSlow;
