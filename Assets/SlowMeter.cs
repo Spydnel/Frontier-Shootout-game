@@ -34,7 +34,7 @@ public class SlowMeter : MonoBehaviour
         {
             color.color = Color.red;
         }
-        else if (scaledCount < 6f)
+        else if (scaledCount >= 6f)
         {
             color.color = Color.cyan;
         }
