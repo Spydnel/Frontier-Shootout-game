@@ -483,7 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slow: 0.5
   slowTime: 6
-  count: {fileID: 1150143450}
+  counter: {fileID: 1150143450}
 --- !u!1 &522037986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,9 +1703,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0078125
+    x: 0
     y: 0
-    width: 0.98437506
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000

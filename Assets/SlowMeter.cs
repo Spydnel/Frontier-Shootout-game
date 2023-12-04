@@ -23,7 +23,7 @@ public class SlowMeter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(scaledCount / 2 - 13.1f, -6.81f, 0);
+        transform.position = new Vector3(scaledCount / 2 - 13.1f, transform.position.y, 0);
         transform.localScale = new Vector3(scaledCount, 1, 1);
     }
 }
