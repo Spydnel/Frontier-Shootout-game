@@ -18,45 +18,56 @@ public class Enemybullet : MonoBehaviour
 
     [SerializeField]
     EnemyBullet EnemybulletPrefab;
-   
+
     [SerializeField]
     Transform spawnLocation;
 
 
     int s = 1;
 
-    float timer = 2;
+    float timer = 10;
 
     // Start is called before the first frame update
-    void Start()
+     void Start()
     {
 
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         timer -= Time.deltaTime;
 
-      
-            Vector2 pos = transform.position;
-            if (spawnLocation != null)
-            {
-                pos = spawnLocation.position;
-            }
+        Vector2 pos = transform.position;
+        if (spawnLocation != null)
+        {
+            pos = spawnLocation.position;
+        }
 
-        
+       
+
+
+
+
+
 
                 EnemyBullet p = Instantiate(EnemybulletPrefab, pos, Quaternion.identity);
                 p.Init(fireDirection);
 
+
+
+                Debug.Log("pew");
                 timer = coolDown;
             
 
-            timer = coolDown;
         
-        
+
+
+
+        timer = coolDown;
 
     }
 
 }
+
+
