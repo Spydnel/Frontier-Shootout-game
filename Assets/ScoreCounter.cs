@@ -18,7 +18,7 @@ public class ScoreCounter : MonoBehaviour
 
     public void Points(int points)
     {
-        scoreI = points;
+        scoreI += points;
     }
 
     // Update is called once per frame
