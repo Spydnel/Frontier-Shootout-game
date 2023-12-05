@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
 
         if (Time.timeScale != 1)
         {
-            bulletSlow *= 0.98f;
+            bulletSlow *= 0.94f;
         }
         else
         {
