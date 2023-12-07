@@ -19,7 +19,7 @@ public class SlowMeter : MonoBehaviour
     {
         Debug.Log(count);
 
-        scaledCount = count * 6 / countMult;
+        scaledCount = count * 5 / countMult;
 
     }
 
@@ -33,7 +33,7 @@ public class SlowMeter : MonoBehaviour
         {
             color.color = new Color32(102, 32, 73, 200);
         }
-        else if (scaledCount >= 6f)
+        else if (scaledCount >= 5f)
         {
             color.color = new Color32(250, 9, 9, 200);
         }
