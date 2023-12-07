@@ -6,7 +6,7 @@ public class ScoreCounter : MonoBehaviour
 {
 
     public GameObject scorecounter;
-
+    public string scorePrefix;
     int scoreI;
 
 
@@ -27,6 +27,6 @@ public class ScoreCounter : MonoBehaviour
         scoreI.ToString();
 
         TextMesh text = scorecounter.GetComponent<TextMesh>();
-        text.text = "Score: " + scoreI;
+        text.text = scorePrefix + scoreI;
     }
 }
