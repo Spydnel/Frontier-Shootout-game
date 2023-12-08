@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField]
     int maxHealth = 1;
 
+    public GameObject score;
+
     int health;
 
     // Start is called before the first frame update
@@ -26,6 +28,8 @@ public class EnemyHealth : MonoBehaviour
 
     void GameOver()
     {
+        ScoreCounter points = score.GetComponent<ScoreCounter>();
+        points.Points(100);
         Destroy(gameObject);
     }
 }
