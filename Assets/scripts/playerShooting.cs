@@ -25,20 +25,39 @@ public class playerShooting : MonoBehaviour
 
 
     float timer = 0;
+    public float reloadTimer = 2f;
+    float reloadTimerReset;
+    bool reloading = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        reloadTimerReset = reloadTimer;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R) && bulletCount < 6)
+        {
+            reloading = true;
+        }
+
+        if (reloading && reloadTimer > 0)
+        {
+            reloadTimer -= Time.unscaledDeltaTime;
+        }
+        else if (reloading && reloadTimer < 0)
+        {
+            reloading = false;
+            bulletCount = 6;
+            reloadTimer = reloadTimerReset;
+        }
 
 
         timer -= Time.unscaledDeltaTime;
 
-        if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0)
+        if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0 && bulletCount > 0 && reloading == false)
         {
             Vector2 pos = transform.position;
             if(spawnLocation != null)
