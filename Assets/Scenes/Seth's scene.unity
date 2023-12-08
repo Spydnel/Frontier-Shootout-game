@@ -219,6 +219,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 239027520}
+    - target: {fileID: -1080416635444046986, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 134440778545513290, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
       propertyPath: m_Name
       value: enemyPrefab
@@ -392,6 +396,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 239027520}
+    - target: {fileID: -1080416635444046986, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 134440778545513290, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
       propertyPath: m_Name
       value: enemyPrefab (4)
@@ -818,6 +826,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 239027520}
+    - target: {fileID: -1080416635444046986, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 134440778545513290, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
       propertyPath: m_Name
       value: enemyPrefab (3)
@@ -879,6 +891,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 239027520}
+    - target: {fileID: -1080416635444046986, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 134440778545513290, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
       propertyPath: m_Name
       value: enemyPrefab (1)
@@ -1842,10 +1858,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.112871274
-    width: 0.5709188
-    height: 0.72418666
+    x: 0.0078125
+    y: 0
+    width: 0.98437506
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2226,6 +2242,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 239027520}
+    - target: {fileID: -1080416635444046986, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 134440778545513290, guid: dbc20b58dc76cea45b5551d854b83774, type: 3}
       propertyPath: m_Name
       value: enemyPrefab (2)
