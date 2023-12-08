@@ -1858,10 +1858,29 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 0
+    width: 0
+    height: 0
+=======
     x: 0.0078125
     y: 0
     width: 0.98437506
     height: 1
+>>>>>>> 4f5defa18a6fbc953f892ffdaea909b427049932
+=======
+    y: 0.042937852
+    width: 0.25
+    height: 0.275491
+>>>>>>> parent of ec289da (new empty and prefab for enemy shoot)
+=======
+    y: 0.042937852
+    width: 0.25
+    height: 0.275491
+>>>>>>> parent of ec289da (new empty and prefab for enemy shoot)
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2313,4 +2332,15 @@ SceneRoots:
   - {fileID: 484152042}
   - {fileID: 1150143453}
   - {fileID: 239027524}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - {fileID: 298405800}
+  - {fileID: 924649823}
+=======
   - {fileID: 1998818018}
+>>>>>>> 4f5defa18a6fbc953f892ffdaea909b427049932
+=======
+>>>>>>> parent of ec289da (new empty and prefab for enemy shoot)
+=======
+>>>>>>> parent of ec289da (new empty and prefab for enemy shoot)
