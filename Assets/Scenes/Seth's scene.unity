@@ -817,6 +817,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d2e2fde39589344a62b756a31977af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 753542367}
+  reloadInstance:
+  - {fileID: -3303112719561150727, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: -5710933268993675763, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: -5710933268993675763, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: 287395785912701966, guid: 81838ce0151559747847278f9d50f66e, type: 3}
 --- !u!212 &753542367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2414,9 +2420,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0078125
+    x: 0
     y: 0
-    width: 0.98437506
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000

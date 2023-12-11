@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerGun : MonoBehaviour
 {
+
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] reloadInstance;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +19,10 @@ public class PlayerGun : MonoBehaviour
         var direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        if (playerShooting.reloading)
+        {
+            spriteRenderer.sprite = reloadInstance[1];
+        }
     }
 }
