@@ -27,7 +27,7 @@ public class playerShooting : MonoBehaviour
     float timer = 0;
     public float reloadTimer = 2f;
     float reloadTimerReset;
-    bool reloading = false;
+    public static bool reloading = false;
 
     // Start is called before the first frame update
     void Start()
