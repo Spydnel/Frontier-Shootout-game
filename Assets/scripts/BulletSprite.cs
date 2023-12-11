@@ -18,7 +18,7 @@ public class BulletSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerShooting.bulletCount > -1 && playerShooting.bulletCount < 6)
+        if (playerShooting.bulletCount > -1 && playerShooting.bulletCount < 7)
         {
             spriteRenderer.sprite = bulletInd[playerShooting.bulletCount];
         }
