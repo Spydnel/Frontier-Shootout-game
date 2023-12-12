@@ -40,7 +40,7 @@ public class Enemybullet : MonoBehaviour
                 Thread.Sleep(1000);
 
                 Vector2 pos = transform.position;
-                if (spawnLocation != null)
+                while (spawnLocation != null)
                 {
                     pos = spawnLocation.position;
                 }
@@ -52,7 +52,8 @@ public class Enemybullet : MonoBehaviour
                 Debug.Log("pew");
                 
             }
-        }
+        } 
+        
     }
 
     // Update is called once per frame
