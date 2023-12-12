@@ -25,7 +25,7 @@ public class Enemybullet : MonoBehaviour
     Transform spawnLocation;
 
 
-    int s = 1;
+   
 
     float timer = 10;
 
