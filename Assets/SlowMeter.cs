@@ -19,7 +19,7 @@ public class SlowMeter : MonoBehaviour
     {
         Debug.Log(count);
 
-        scaledCount = count * 6 / countMult;
+        scaledCount = count * 5 / countMult;
 
     }
 
@@ -27,19 +27,19 @@ public class SlowMeter : MonoBehaviour
     void Update()
     {
         transform.position = new Vector3(offset + scaledCount/2, transform.position.y, 0);
-        transform.localScale = new Vector3(scaledCount, 0.5f, 1f);
+        transform.localScale = new Vector3(scaledCount, 0.6f, 1f);
 
         if (scaledCount < 2)
         {
-            color.color = new Color32(102, 32, 73, 200);
+            color.color = new Color32(250, 9, 9, 255);
         }
-        else if (scaledCount >= 6f)
+        else if (scaledCount >= 5f)
         {
-            color.color = new Color32(250, 9, 9, 200);
+            color.color = new Color32(255, 255, 255, 255);
         }
         else
         {
-            color.color = new Color32(230, 81, 7, 200);
+            color.color = new Color32(250, 9, 9, 255); ;
         }
     }
 }
