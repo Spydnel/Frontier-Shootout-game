@@ -817,6 +817,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d2e2fde39589344a62b756a31977af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 753542367}
+  reloadInstance:
+  - {fileID: -1820322388265359674, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: 5546503608224683049, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: -7087602715958919299, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: 1725355561668850574, guid: 81838ce0151559747847278f9d50f66e, type: 3}
+  - {fileID: 21300000, guid: 92646b576b2eeac44a596cc9e2319e27, type: 3}
 --- !u!212 &753542367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1089,8 +1096,8 @@ Transform:
   m_GameObject: {fileID: 1225844181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.9922, y: 7.04, z: 0}
-  m_LocalScale: {x: 4.9432173, y: 0.65306485, z: 1}
+  m_LocalPosition: {x: -10.8858, y: 7.03, z: 0}
+  m_LocalScale: {x: 4.9167123, y: 0.55919015, z: 0.92045}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1279,7 +1286,7 @@ Transform:
   m_GameObject: {fileID: 1294042454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.64, y: 7.06, z: 0}
+  m_LocalPosition: {x: -10.57, y: 7.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1442,8 +1449,8 @@ Transform:
   m_GameObject: {fileID: 1477751425}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.42, y: 2.83, z: 0}
-  m_LocalScale: {x: 1.0575334, y: 0.63125, z: 1}
+  m_LocalPosition: {x: -7.95, y: 5.02, z: 0}
+  m_LocalScale: {x: 3.7252536, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2415,9 +2422,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 0
-    height: 0
+    y: 0.118750006
+    width: 1
+    height: 0.76190484
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
