@@ -27,7 +27,7 @@ public class Enemybullet : MonoBehaviour
 
    
 
-    float timer = 10;
+  //  float timer = 10;
 
     // Start is called before the first frame update
      public void Start()
