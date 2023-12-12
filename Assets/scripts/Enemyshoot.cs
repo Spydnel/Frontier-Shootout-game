@@ -59,7 +59,11 @@ public class Enemybullet : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        timer -= Time.deltaTime;
+        
+
+    }
+
+    // timer -= Time.deltaTime;
 
       
             
@@ -68,9 +72,7 @@ public class Enemybullet : MonoBehaviour
 
 
 
-        timer = coolDown;
-
-    }
+      //  timer = coolDown;
 
 }
 
