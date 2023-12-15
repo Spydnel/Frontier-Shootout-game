@@ -74,6 +74,15 @@ public class Enemybullet : MonoBehaviour
 
       //  timer = coolDown;
 
+
+
+
+
+
+
+
+
+    // I give up, I was completely useless
 }
 
 
