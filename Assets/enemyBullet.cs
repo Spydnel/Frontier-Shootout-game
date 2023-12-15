@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.EditorTools;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class EnemyBullet : MonoBehaviour
+public class enemyBullet : MonoBehaviour
 {
     void Start()
     {
@@ -17,12 +15,8 @@ public class EnemyBullet : MonoBehaviour
     float bulletSlow;
 
     [SerializeField]
-    GameObject GameObjectt;
+    Transform target;
 
-   
-
-    
-    
 
     public void Init(Vector2 velocity)
     {
@@ -35,7 +29,7 @@ public class EnemyBullet : MonoBehaviour
 
         //rb2.velocity = velocity;
 
-        var direction = GameObjectt.transform.position;
+        var direction = target.position;
         var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
@@ -45,7 +39,7 @@ public class EnemyBullet : MonoBehaviour
 
         if (Time.timeScale != 1)
         {
-            bulletSlow *= 0.99f;
+            bulletSlow *= 0.94f;
         }
         else
         {
@@ -58,3 +52,4 @@ public class EnemyBullet : MonoBehaviour
         Debug.Log(bulletSlow);
     }
 }
+
