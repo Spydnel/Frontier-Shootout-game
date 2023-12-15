@@ -5290,7 +5290,7 @@ MonoBehaviour:
   fireDirection: {x: 1, y: 0}
   coolDown: 0
   EnemybulletPrefab: {fileID: 1484786941}
-  spawnLocation: {fileID: 765313672}
+  spawnLocation: {fileID: 343713562}
 --- !u!23 &343713560
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5311,7 +5311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: be992a8e99ca8344fb139f4c3aec3b98, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6275,6 +6275,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1782181969333830991, guid: 8ae7f3b47ebb4ff4a89932d8b1b1aff0, type: 3}
+      propertyPath: GameObjectt
+      value: 
+      objectReference: {fileID: 765313671}
     - target: {fileID: 5535941598311703394, guid: 8ae7f3b47ebb4ff4a89932d8b1b1aff0, type: 3}
       propertyPath: m_Name
       value: EnemyBullet
@@ -7275,10 +7279,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.08646779
+    x: 0
     y: 0
-    width: 0.8277129
-    height: 1.0009149
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
