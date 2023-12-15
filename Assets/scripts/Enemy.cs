@@ -7,12 +7,14 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     Vector2 velocity = Vector2.one;
 
+    public float speed;
 
     [SerializeField]
     float zigzagTime = 1f;
 
     Rigidbody2D rigidBody;
     float timer;
+    public float timer2;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,14 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*timer2 -= Time.deltaTime;
+
+        if (timer2 < timer2 / 3)
+        {
+            rigidBody.velocity = Vector2.right * speed;
+        }
+        else if (timer2 < timer2 / 2)*/
+
         timer -= Time.deltaTime;
         ZigZagMovement();
     }
